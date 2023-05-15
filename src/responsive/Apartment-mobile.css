@@ -1,0 +1,51 @@
+@media screen and (max-width: 782px) {
+  .infos_principales {
+    flex-direction: column;
+  }
+  .titre_emplacement h1 {
+    font-size: 3.8vw;
+  }
+  .titre_emplacement p {
+    font-size: 3.2vw;
+  }
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .user_infos {
+    justify-content: end;
+    order: 2;
+    gap: 5vw;
+  }
+  .user_infos h3 {
+    font-size: 2.6vw;
+  }
+  .user_infos img {
+    width: 50px;
+    height: 50px;
+  }
+  .rateContainer {
+    order: 1;
+  }
+  .rateContainer img {
+    width: 3vw;
+    height: 3vw;
+  }
+  .description {
+    flex-direction: column;
+    gap: 0;
+  }
+  .description button {
+    width: 70%;
+    font-size: 2.4vw;
+  }
+  .description .toggle {
+    width: 70%;
+  }
+  .description .toggle p,
+  .equipment {
+    width: 70%;
+    font-size: 2.4vw;
+  }
+}

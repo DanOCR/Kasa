@@ -1,0 +1,7 @@
+@media screen and (max-width: 782px) {
+  .text h2 {
+    width: 35vw;
+    font-weight: 600;
+    text-align: center;
+  }
+}

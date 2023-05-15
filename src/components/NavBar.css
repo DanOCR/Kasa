@@ -1,0 +1,29 @@
+* {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 10% 0 10%;
+}
+.navbar img {
+  width: 14vw;
+}
+.nav {
+  display: flex;
+  gap: 50px;
+  font-size: 1.6vw;
+}
+a {
+  color: #ff6060;
+}
+
+@media screen and (max-width: 782px) {
+  .navbar img {
+    width: 22vw;
+  }
+  .nav {
+    font-size: 2.4vw;
+  }
+}
