@@ -601,8 +601,6 @@ export default function Appartment() {
   });
 
   const singleid = mapid.find((element) => element === id);
-  console.log(mapid);
-  console.log(singleid);
 
   return found ? (
     <div className="container">
