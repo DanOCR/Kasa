@@ -8,7 +8,7 @@ export default function NavBar() {
       <img src={Logo} alt="" />
       <nav className="nav">
         <NavLink to="/"> Accueil </NavLink>
-        <NavLink to="/A-Propos"> A Propos </NavLink>
+        <NavLink to="/about"> A Propos </NavLink>
       </nav>
     </div>
   );

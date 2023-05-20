@@ -1,22 +1,22 @@
 @media screen and (max-width: 782px) {
-  .fiche-logement .banner {
+  .housing_sheet .banner {
     height: 55vw;
   }
 
-  .fiche-logement .collapse {
+  .housing_sheet .collapse {
     width: 160vw;
   }
 
-  .fiche-logement .collapse button {
+  .housing_sheet .collapse button {
     height: 40px;
     font-size: 2.5vw;
   }
 
-  .fiche-logement button img {
+  .housing_sheet button img {
     width: 2.3vw;
   }
 
-  .fiche-logement p {
+  .housing_sheet p {
     font-size: 2.5vw;
   }
 }

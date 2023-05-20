@@ -1,7 +1,7 @@
-import "./Erreur.css";
-import "../responsive/Erreur-mobile.css";
+import "./Error.css";
+import "../responsive/Error-mobile.css";
 
-export default function Erreur() {
+export default function Error() {
   return (
     <div>
       <div className="text">

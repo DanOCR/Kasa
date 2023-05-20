@@ -1,12 +1,12 @@
 import Banner from "../components/Banner";
 import Collapse from "../components/Collapse";
 import Image from "../images/IMG2.png";
-import "./APropos.css";
-import "../responsive/APropos-mobile.css";
+import "./About.css";
+import "../responsive/About-mobile.css";
 
-export default function FicheLogement() {
+export default function HousingSheet() {
   return (
-    <div className="fiche-logement">
+    <div className="housing_sheet">
       <Banner src={Image} />
       <div>
       <Collapse label="Fiabilité">

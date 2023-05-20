@@ -1,4 +1,4 @@
-const CarouselIndicators = ({ slides, currentIndex, switchIndex }) => {
+const CarouselIndicators = ({ slides, currentIndex }) => {
   return (
     <div className="carousel-indicators">
       {slides.map((_, index) => (

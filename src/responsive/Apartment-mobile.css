@@ -1,11 +1,11 @@
 @media screen and (max-width: 782px) {
-  .infos_principales {
+  .main_information {
     flex-direction: column;
   }
-  .titre_emplacement h1 {
+  .title_location h1 {
     font-size: 3.8vw;
   }
-  .titre_emplacement p {
+  .title_location p {
     font-size: 3.2vw;
   }
   .user {

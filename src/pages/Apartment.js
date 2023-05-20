@@ -5,10 +5,10 @@ import Collapse from "../components/Collapse";
 import Carousel from "../components/Carousel/Carousel";
 import Svg from "../images/Rate.svg";
 import SvgRed from "../images/RateRed.svg";
-import Erreur from "../pages/Erreur";
+import Error from "./Error";
 
 export default function Appartment() {
-  const logements = [
+  const housing = [
     {
       id: "c67ab8a7",
       title: "Appartement cosy",
@@ -593,21 +593,15 @@ export default function Appartment() {
   const params = useParams();
   const { id } = params;
 
-  const found = logements.find((element) => element.id === id);
+  const found = housing.find((element) => element.id === id);
   const slides = found?.pictures;
-
-  const mapid = logements?.map(function (logement) {
-    return logement.id;
-  });
-
-  const singleid = mapid.find((element) => element === id);
 
   return found ? (
     <div className="container">
       <Carousel slides={slides} />
 
-      <div className="infos_principales">
-        <div className="titre_emplacement">
+      <div className="main_information">
+        <div className="title_location">
           <h1> {found.title} </h1>
           <p> {found.location} </p>
           <div className="tags">
@@ -672,6 +666,6 @@ export default function Appartment() {
       </div>
     </div>
   ) : (
-    <Erreur />
+    <Error />
   );
 }

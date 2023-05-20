@@ -6,7 +6,6 @@ import "./Carousel.css";
 
 const Carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  // const slideInterval = useRef();
 
   const prev = () => {
     const index = currentSlide > 0 ? currentSlide - 1 : slides.length - 1;
