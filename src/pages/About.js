@@ -8,7 +8,7 @@ export default function HousingSheet() {
   return (
     <div className="housing_sheet">
       <Banner src={Image} />
-      <div>
+      <div className="collapses">
       <Collapse label="Fiabilité">
         <p>
           {" "}

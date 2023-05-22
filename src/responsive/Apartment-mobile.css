@@ -37,11 +37,11 @@
     gap: 0;
   }
   .description button {
-    width: 70%;
+    width: 100%;
     font-size: 2.4vw;
   }
   .description .toggle {
-    width: 70%;
+    width: 100%;
   }
   .description .toggle p,
   .equipment {

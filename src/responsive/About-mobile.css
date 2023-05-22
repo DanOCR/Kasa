@@ -2,9 +2,11 @@
   .housing_sheet .banner {
     height: 55vw;
   }
-
+  .housing_sheet .collapses {
+    width: 80%;
+  }
   .housing_sheet .collapse {
-    width: 160vw;
+    width: 100%;
   }
 
   .housing_sheet .collapse button {

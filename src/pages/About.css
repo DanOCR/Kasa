@@ -4,3 +4,9 @@
     align-items: center;
     margin-bottom: 300px;
 }
+.collapses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
